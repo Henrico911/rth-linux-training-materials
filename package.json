@@ -1,0 +1,19 @@
+{
+  "name": "rth-linux-training-materials",
+  "version": "1.0.0",
+  "description": "Automated generation of Linux training materials for Rwenzori Tech Hub",
+  "main": "index.js",
+  "scripts": {
+    "day1": "node day1_lesson_plan.js",
+    "day23": "node day23_lesson_plans.js",
+    "exercises": "node exercises.js",
+    "slides": "node slides.js",
+    "all": "npm run day1 && npm run day23 && npm run exercises && npm run slides"
+  },
+  "dependencies": {
+    "docx": "^8.5.0",
+    "pptxgenjs": "^3.12.0"
+  },
+  "author": "Rwenzori Tech Hub",
+  "license": "MIT"
+}
